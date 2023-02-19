@@ -1,0 +1,297 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700px;
+    /* background: hsl(189, 41%, 97%); */
+    background: lightblue;
+    
+}
+h1{     display: block;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-top: 20px;
+    
+}
+
+h2{
+        display: block;
+        padding-left: 27px;
+        font-size: 12px;
+        padding-top: 10px;
+    
+}
+
+h3{ 
+    display: block;
+    margin-top: 90px;
+    margin-left: 27px;
+    font-size: 12px;
+}
+
+h4{
+    height: 30px;
+    margin-right: 60px;
+}
+
+.big-div{
+display: flex;
+
+}
+
+.main-div{
+   
+        height: 400px;
+        width: 400px;
+      background:  hsl(0, 0%, 100%);
+        margin-left: 200px;
+        margin-top: 100px;
+        box-shadow: 10px , 10px , 10px , 10px;
+        border-radius: 20px;
+
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.input-value {
+	height: 20px;
+	width: 200px;
+	margin-left: 28px;
+    border-radius: 5px;
+    font-size: 24px;
+    color: hsl(183, 100%, 15%);
+    /* box-shadow: white 0px 0px 0px 3px;
+    border-color: hsl(183, 100%, 15%);
+    border-left: hsl(183, 100%, 15%); ;
+    border-top:  hsl(183, 100%, 15%);; */
+}
+
+
+
+.buttons{
+	display: block;
+	justify-content: space-between;
+	width: 200px;
+	padding-left: 27px;
+	height: 30px;
+    /* background-color: hsl(186, 14%, 43%); */
+}
+
+.button{
+    background: hsl(183, 100%, 15%);
+}
+
+
+/* CSS */
+.button {
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover,
+.button:focus {
+  background-color: hsl(172, 67%, 45%); ;
+}
+
+/* .custom-value-div{
+    height: 20px;
+	width: 200px;
+	margin-left: 28px;
+    border-radius: 5px;
+    padding-top: 1px;
+margin-top: 10px;
+} */
+
+.custom-value{
+    width: 40px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.total-Guest{
+    height: 20px;
+	width: 200px;
+	margin-left: 28px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: hsl(183, 100%, 15%);
+}
+
+.total{
+    /* margin-top: 100px; */
+    height: 200px;
+    width: 300px;
+    background-color: hsl(183, 100%, 15%);
+  text-align: center;
+  height: 400px;
+  margin-top: 100px;
+  border-radius: 10px;
+  border-left-width: 10px;
+  margin-left: 10px;
+ 
+overflow: hidden;
+}
+
+
+
+/* 
+.reset{
+    margin-top: 100px;
+    background-color: hsl(172, 67%, 45%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100px;
+
+  height: 10px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+} */
+
+.reset{
+   
+/* CSS */
+
+  background-color: hsl(172, 67%, 45%);
+  border: 1px solid hsl(172, 67%, 45%);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+
+.reset {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .reset {
+    padding: 10px 30px;
+  }
+}
+
+
+.ta , .tp {
+    color: white;
+    /* width: 120px; */
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 20px;
+width: 300px;
+font-size: 10px;
+
+}
+
+.ta{
+    margin-bottom: 100px;
+}
+
+.reset{
+    border-top-width: 1px;
+    padding-left: 2px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.submit-input ,   .submit-input2 {
+    margin-left: 30px;
+    margin-top: 10px;
+    /* <!-- HTML !-->
+<button class="button-47" role="button">Button 47</button> */
+
+/* CSS */
+ 
+  align-items: center;
+  background: #FFFFFF;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 12;
+  font-weight: 700;
+  height: 40px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 10px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit-input1{
+    margin-top: 10px;
+}
+
+.changingValue , .changingValue1{
+    padding-left: 20px;
+font-size: 40px;
+color:hsl(172, 67%, 45%);
+}

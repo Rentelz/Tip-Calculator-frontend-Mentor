@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="big-div">
+      <div class="main-div">
+        <h1>Bill</h1>
+
+        <input type="number" class="input-value" placeholder="$" />
+        <button class="submit-input">submit</button>
+
+        <h2>Select Tip%</h2>
+        <div class="buttons">
+          <button class="button" value="1.1">5%</button>
+          <button class="button" value="1.15">10%</button>
+          <button class="button" value="1.25">15%</button>
+          <button class="button" value="1.35">25%</button>
+          <button class="button" value="1.50">50%</button>
+          <input type="number" class="custom-value" placeholder="CUSTOM" />
+          <!-- <button class="submit-input1">submit</button> -->
+        </div>
+        <h3>Number of People</h3>
+        <input type="number" class="total-Guest" placeholder="Guest" />
+        <button class="submit-input2">submit</button>
+        <!-- <label for="lname">Last Name</label> -->
+      </div>
+
+      <!-- Bill 5% 10% 15% 25% 50% Custom Number of People Tip Amount / person Total /
+    person Reset -->
+
+      <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+
+      <div class="total">
+        <h4 class="tp">
+          Tip Amount / person <span class="changingValue"></span>
+        </h4>
+        <h4 class="ta">
+          person Total / person <span class="changingValue1"></span>
+        </h4>
+        <button class="reset">Reset</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
